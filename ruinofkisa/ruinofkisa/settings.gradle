@@ -1,0 +1,1 @@
+include ':app', ':gson-2.8.2', ':jackson-databind-2.9.2', ':jackson-annotations-2.9.2', ':jackson-core-2.9.2', ':achartengine-0.6.0'

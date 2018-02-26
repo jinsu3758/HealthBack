@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.yoonsung.ruinofkisa">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/my"
+        android:label="헬스백"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <activity android:name=".Loading">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            >
+
+        </activity>
+        <activity android:name=".LoginActivity"/>
+        <activity android:name=".GraphActivity"/>
+        <activity android:name=".AttitudeActivity"/>
+        <activity android:name=".LineChartActivity"/>
+        <activity android:name=".TmploginActivity"
+            android:launchMode="singleTask"
+            android:exported="true"/>
+        <activity android:name=".MaintestActivity"/>
+        <activity android:name=".BarChartActivity"/>
+        <activity android:name=".PieChartActivity"/>
+        <activity android:name=".DiscountActivity"/>
+
+    </application>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+</manifest>

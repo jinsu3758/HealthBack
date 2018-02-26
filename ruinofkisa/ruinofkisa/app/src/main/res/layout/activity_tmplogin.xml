@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b6eefa"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="30dp"
+            android:layout_height="36dp"
+            android:gravity="left" />
+
+        <Switch
+            android:id="@+id/gpsSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="시간측정"
+            android:textColor="#000000"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#b6eefa">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_weight="5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:src="@drawable/set_image"
+            android:scaleType="fitXY"
+            />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/sit"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="0dp"
+            android:textColor="#000000"
+            android:text="바른 자세로 앉아주세요"
+            android:textSize="30dp"/>
+        <ImageView
+            android:layout_marginTop="200dp"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:src="@drawable/title1"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            />
+
+        <TextView
+            android:id="@+id/sensor_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="output"
+            android:visibility="gone"
+            android:textSize="15pt"/>
+
+        <Button
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:id="@+id/sensor_button"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:background="@drawable/btn_design"
+            android:layout_gravity="bottom"
+            android:text="바른 자세 설정" />
+    </LinearLayout>
+</LinearLayout>
