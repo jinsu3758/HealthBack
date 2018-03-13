@@ -9,7 +9,7 @@
 - 소정웅 : Android Developer
 ### Development Environment
 - OS : Windows, Android
-- Hardware : Arduino, FSE-406(Sensor)
+- Hardware : Arduino, FSR-406(Sensor)
 - Server : Python
 - Android Application : Java, Android Studio
 - DB : SQLite
