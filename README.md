@@ -4,7 +4,7 @@
 
 ### Members
 - 박진수 : PM / H/W Engineer / Android Developer
-- 조찬욱 : Server / H/W Engineer
+- 조찬욱 : Server Developer / H/W Engineer
 - 박윤성 : Android Developer / DB Administrator
 - 소정웅 : Android Developer
 ### Development Environment
